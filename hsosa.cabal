@@ -1,0 +1,62 @@
+name:                hsosa
+version:             0.1.0.0
+synopsis:            Haskell Interface for OS X Open Scripting Architecture (OSA, AppleScript)
+description:         Haskell Interface for OS X Open Scripting Architecture (OSA, AppleScript)
+homepage:            http://github.com/konn/hsosa#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Hiromi ISHII
+maintainer:          konn.jinro _at_ gmail.com
+copyright:           2015 (c) Hiromi ISHII
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+flag examples
+  description:  build examples
+  default:      False
+
+library
+  hs-source-dirs:      src
+  c-sources:           src/Language/OSA.m
+  exposed-modules:     Language.OSA
+  cc-options:          -Wall -fobjc-arc 
+  ghc-options:         -Wall -fllvm -optl-ObjC
+  frameworks:          Foundation, AppKit
+  build-depends:       base >= 4.7 && < 5
+                     , bytestring
+                     , text
+                     , inline-c
+                     , inline-c-objc
+  default-language:    Haskell2010
+
+executable hello
+  if flag(examples)
+     buildable:        True
+  else
+     buildable:        False
+  hs-source-dirs:      examples
+  main-is:             hello.hs
+  cc-options:          -Wall -fobjc-arc 
+  ghc-options:         -Wall -fllvm -optl-ObjC -threaded
+                       -threaded -rtsopts -with-rtsopts=-N
+  frameworks:          Foundation, AppKit
+  build-depends:       base
+                     , inline-c-objc
+                     , text
+                     , hsosa
+  default-language:    Haskell2010
+
+-- test-suite hsosa-test
+--   type:                exitcode-stdio-1.0
+--   hs-source-dirs:      test
+--   main-is:             Spec.hs
+--   build-depends:       base
+--                      , hsosa
+--   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+--  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/konn/hsosa
