@@ -21,6 +21,8 @@ library
   hs-source-dirs:      src
   c-sources:           src/Language/OSA.m
   exposed-modules:     Language.OSA
+                       Language.OSA.QQ
+                       Language.OSA.AppleEventDescriptor
   cc-options:          -Wall -fobjc-arc 
   ghc-options:         -Wall -fllvm -optl-ObjC
   frameworks:          Foundation, AppKit
@@ -29,6 +31,7 @@ library
                      , text
                      , inline-c
                      , inline-c-objc
+                     , template-haskell
   default-language:    Haskell2010
 
 executable hello
@@ -46,6 +49,7 @@ executable hello
                      , inline-c-objc
                      , text
                      , hsosa
+                     , template-haskell
   default-language:    Haskell2010
 
 -- test-suite hsosa-test
