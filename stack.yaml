@@ -6,17 +6,18 @@ resolver: lts-5.2
 # Local packages, usually specified by relative directory name
 packages:
 - '.'
-- '../inline-c-objc'
-# - location:
-#     git: https://github.com/konn/inline-c-objc.git
-#     commit: d0a31cea077c9e8d07ab0be16a4638542465c043
+- location:
+     git: https://github.com/konn/inline-c-objc.git
+     commit: 18083539b08f1c03268355e0588f3a9f69174165
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
 extra-deps:
 - c-storable-deriving-0.1.3
 
 # Override default flag values for local packages and extra-deps
-flags: {}
+flags:
+  hsosa:
+    examples: true
 
 # Extra package databases containing global packages
 extra-package-dbs: []

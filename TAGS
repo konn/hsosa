@@ -1,0 +1,791 @@
+
+./.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_hsosa.hs,960
+module Paths_hsosa Paths_hsosa0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/0a2eff5391eb26d87c57a40a49354e823e689e4435a57dce90c68aa6cf1899b2/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_inline_c_objc.hs,976
+module Paths_inline_c_objc Paths_inline_c_objc0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/0a2eff5391eb26d87c57a40a49354e823e689e4435a57dce90c68aa6cf1899b2/examples/hello.hs,94
+module Main Main2,3
+nsLog nsLog11,12
+nsLog nsLog12,13
+main main14,15
+main main15,16
+
+./.stack-work/downloaded/0a2eff5391eb26d87c57a40a49354e823e689e4435a57dce90c68aa6cf1899b2/Setup.hs,15
+main main1,2
+
+./.stack-work/downloaded/0a2eff5391eb26d87c57a40a49354e823e689e4435a57dce90c68aa6cf1899b2/src/Language/ObjC/Inline/Prim.hs,242
+module Language.ObjC.Inline.Prim Language.ObjC.Inline.Prim0,1
+objcPrimCtx objcPrimCtx13,14
+objcPrimCtx objcPrimCtx14,15
+objcPrimTable objcPrimTable21,22
+objcPrimTable objcPrimTable22,23
+import_ import_29,30
+import_ import_30,31
+
+./.stack-work/downloaded/0a2eff5391eb26d87c57a40a49354e823e689e4435a57dce90c68aa6cf1899b2/src/Language/ObjC/Inline.hs,2826
+module Language.ObjC.Inline Language.ObjC.Inline6,7
+newtype ObjC ObjC62,63
+newtype ObjC (a :: k) = ObjC ObjC62,63
+newtype ObjC (a :: k) = ObjC { runObjC runObjC62,63
+defClass defClass65,66
+defClass defClass66,67
+defStruct defStruct67,68
+defStruct defStruct68,69
+objcDefTable objcDefTable70,71
+class a a85,86
+class Class Class87,88
+class Class Class87,88
+  className className88,89
+instance instance90,91
+class Class a => Object Object93,94
+class Class a => Object Object93,94
+  type Haskell Haskell94,95
+  type Haskell a a94,95
+  fromObjC_ fromObjC_95,96
+  toObjC_ toObjC_96,97
+myGenercQuote myGenercQuote98,99
+myGenercQuote myGenercQuote105,106
+exp, block, pure pure120,121
+exp, block,block120,121
+exp,exp120,121
+exp exp121,122
+block block122,123
+pure pure123,124
+exp', block', pure' pure'126,127
+exp', block',block'126,127
+exp',exp'126,127
+exp' exp'127,128
+block' block'128,129
+pure' pure'129,130
+fromObjC fromObjC131,132
+fromObjC fromObjC132,133
+toObjC toObjC134,135
+toObjC toObjC135,136
+toObjC' toObjC'137,138
+toObjC' toObjC'138,139
+data NSArrayEl NSArrayEl155,156
+data NSMutableArrayEl NSMutableArrayEl156,157
+type NSArray' NSArray'161,162
+type NSArray' a a161,162
+type NSMutableArray' NSMutableArray'162,163
+type NSArray NSArray163,164
+type NSMutableArray NSMutableArray164,165
+type NSObject NSObject165,166
+upcast upcast167,168
+upcast upcast168,169
+type NSString NSString170,171
+type NSData NSData171,172
+objcCtxWithClasses objcCtxWithClasses173,174
+objcCtxWithClasses objcCtxWithClasses174,175
+objcCtx objcCtx180,181
+objcCtx objcCtx181,182
+mkNSString mkNSString183,184
+mkNSString mkNSString184,185
+attain attain187,188
+attain attain188,189
+convertType_ convertType_190,191
+convertType_ convertType_191,192
+convertObjCType convertObjCType197,198
+convertObjCType convertObjCType198,199
+rawAQ rawAQ206,207
+rawAQ rawAQ207,208
+objAQ objAQ223,224
+objAQ objAQ224,225
+ptrT ptrT240,241
+deHaskellifyCType deHaskellifyCType245,246
+txtAntiQuoter txtAntiQuoter251,252
+txtAntiQuoter txtAntiQuoter252,253
+toNSArray' toNSArray'269,270
+toNSArray' toNSArray'270,271
+toNSArray toNSArray278,279
+toNSArray toNSArray279,280
+fromNSArray' fromNSArray'281,282
+fromNSArray' fromNSArray'282,283
+fromNSArray fromNSArray288,289
+fromNSArray fromNSArray289,290
+arrAntiQuoter arrAntiQuoter303,304
+arrAntiQuoter arrAntiQuoter304,305
+stringClasses stringClasses321,322
+stringClasses stringClasses322,323
+fromNSString fromNSString324,325
+fromNSString fromNSString325,326
+description description328,329
+description description329,330
+safeCastObjC safeCastObjC332,333
+safeCastObjC safeCastObjC334,335
+getHsVariable getHsVariable344,345
+getHsVariable getHsVariable345,346
+
+./.stack-work/downloaded/1b98506571fca0031ffb61bc8daf789e1705d9080fcfb6d5c020273952d8a89d/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_inline_c_objc.hs,976
+module Paths_inline_c_objc Paths_inline_c_objc0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/1b98506571fca0031ffb61bc8daf789e1705d9080fcfb6d5c020273952d8a89d/examples/hello.hs,94
+module Main Main2,3
+nsLog nsLog11,12
+nsLog nsLog12,13
+main main14,15
+main main15,16
+
+./.stack-work/downloaded/1b98506571fca0031ffb61bc8daf789e1705d9080fcfb6d5c020273952d8a89d/Setup.hs,15
+main main1,2
+
+./.stack-work/downloaded/1b98506571fca0031ffb61bc8daf789e1705d9080fcfb6d5c020273952d8a89d/src/Language/ObjC/Inline/Prim.hs,242
+module Language.ObjC.Inline.Prim Language.ObjC.Inline.Prim0,1
+objcPrimCtx objcPrimCtx13,14
+objcPrimCtx objcPrimCtx14,15
+objcPrimTable objcPrimTable21,22
+objcPrimTable objcPrimTable22,23
+import_ import_29,30
+import_ import_30,31
+
+./.stack-work/downloaded/1b98506571fca0031ffb61bc8daf789e1705d9080fcfb6d5c020273952d8a89d/src/Language/ObjC/Inline.hs,2848
+module Language.ObjC.Inline Language.ObjC.Inline6,7
+import import20,21
+newtype ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC { runObjC runObjC63,64
+defClass defClass66,67
+defClass defClass67,68
+defStruct defStruct68,69
+defStruct defStruct69,70
+objcDefTable objcDefTable71,72
+class a a86,87
+class Class Class88,89
+class Class Class88,89
+  className className89,90
+instance instance91,92
+class Class a => Object Object94,95
+class Class a => Object Object94,95
+  type Haskell Haskell95,96
+  type Haskell a a95,96
+  fromObjC_ fromObjC_96,97
+  toObjC_ toObjC_97,98
+myGenercQuote myGenercQuote99,100
+myGenercQuote myGenercQuote106,107
+exp, block, pure pure124,125
+exp, block,block124,125
+exp,exp124,125
+exp exp125,126
+block block126,127
+pure pure127,128
+exp', block', pure' pure'130,131
+exp', block',block'130,131
+exp',exp'130,131
+exp' exp'131,132
+block' block'132,133
+pure' pure'133,134
+fromObjC fromObjC135,136
+fromObjC fromObjC136,137
+toObjC toObjC138,139
+toObjC toObjC139,140
+toObjC' toObjC'141,142
+toObjC' toObjC'142,143
+data NSArrayEl NSArrayEl159,160
+data NSMutableArrayEl NSMutableArrayEl160,161
+type NSArray' NSArray'166,167
+type NSArray' a a166,167
+type NSMutableArray' NSMutableArray'167,168
+type NSArray NSArray168,169
+type NSMutableArray NSMutableArray169,170
+type NSObject NSObject170,171
+upcast upcast172,173
+upcast upcast173,174
+type NSString NSString175,176
+type NSData NSData176,177
+objcCtxWithClasses objcCtxWithClasses178,179
+objcCtxWithClasses objcCtxWithClasses179,180
+objcCtx objcCtx185,186
+objcCtx objcCtx186,187
+mkNSString mkNSString188,189
+mkNSString mkNSString189,190
+attain attain192,193
+attain attain193,194
+convertType_ convertType_195,196
+convertType_ convertType_196,197
+convertObjCType convertObjCType202,203
+convertObjCType convertObjCType203,204
+rawAQ rawAQ211,212
+rawAQ rawAQ212,213
+objAQ objAQ228,229
+objAQ objAQ229,230
+ptrT ptrT245,246
+deHaskellifyCType deHaskellifyCType250,251
+txtAntiQuoter txtAntiQuoter256,257
+txtAntiQuoter txtAntiQuoter257,258
+toNSArray' toNSArray'274,275
+toNSArray' toNSArray'275,276
+toNSArray toNSArray283,284
+toNSArray toNSArray284,285
+fromNSArray' fromNSArray'286,287
+fromNSArray' fromNSArray'287,288
+fromNSArray fromNSArray293,294
+fromNSArray fromNSArray294,295
+arrAntiQuoter arrAntiQuoter308,309
+arrAntiQuoter arrAntiQuoter309,310
+stringClasses stringClasses326,327
+stringClasses stringClasses327,328
+fromNSString fromNSString329,330
+fromNSString fromNSString330,331
+description description333,334
+description description334,335
+safeCastObjC safeCastObjC337,338
+safeCastObjC safeCastObjC339,340
+getHsVariable getHsVariable349,350
+getHsVariable getHsVariable350,351
+
+./.stack-work/downloaded/2eb2b110c9e2c957e1999e88d79968b963c0b19fa55e41cb0b26a98b404282cf/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_inline_c_objc.hs,976
+module Paths_inline_c_objc Paths_inline_c_objc0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/2eb2b110c9e2c957e1999e88d79968b963c0b19fa55e41cb0b26a98b404282cf/examples/hello.hs,94
+module Main Main2,3
+nsLog nsLog11,12
+nsLog nsLog12,13
+main main14,15
+main main15,16
+
+./.stack-work/downloaded/2eb2b110c9e2c957e1999e88d79968b963c0b19fa55e41cb0b26a98b404282cf/Setup.hs,15
+main main1,2
+
+./.stack-work/downloaded/2eb2b110c9e2c957e1999e88d79968b963c0b19fa55e41cb0b26a98b404282cf/src/Language/ObjC/Inline/Prim.hs,242
+module Language.ObjC.Inline.Prim Language.ObjC.Inline.Prim0,1
+objcPrimCtx objcPrimCtx13,14
+objcPrimCtx objcPrimCtx14,15
+objcPrimTable objcPrimTable21,22
+objcPrimTable objcPrimTable22,23
+import_ import_29,30
+import_ import_30,31
+
+./.stack-work/downloaded/2eb2b110c9e2c957e1999e88d79968b963c0b19fa55e41cb0b26a98b404282cf/src/Language/ObjC/Inline.hs,2848
+module Language.ObjC.Inline Language.ObjC.Inline6,7
+import import20,21
+newtype ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC { runObjC runObjC63,64
+defClass defClass66,67
+defClass defClass67,68
+defStruct defStruct68,69
+defStruct defStruct69,70
+objcDefTable objcDefTable71,72
+class a a86,87
+class Class Class88,89
+class Class Class88,89
+  className className89,90
+instance instance91,92
+class Class a => Object Object94,95
+class Class a => Object Object94,95
+  type Haskell Haskell95,96
+  type Haskell a a95,96
+  fromObjC_ fromObjC_96,97
+  toObjC_ toObjC_97,98
+myGenercQuote myGenercQuote99,100
+myGenercQuote myGenercQuote106,107
+exp, block, pure pure124,125
+exp, block,block124,125
+exp,exp124,125
+exp exp125,126
+block block126,127
+pure pure127,128
+exp', block', pure' pure'130,131
+exp', block',block'130,131
+exp',exp'130,131
+exp' exp'131,132
+block' block'132,133
+pure' pure'133,134
+fromObjC fromObjC135,136
+fromObjC fromObjC136,137
+toObjC toObjC138,139
+toObjC toObjC139,140
+toObjC' toObjC'141,142
+toObjC' toObjC'142,143
+data NSArrayEl NSArrayEl159,160
+data NSMutableArrayEl NSMutableArrayEl160,161
+type NSArray' NSArray'165,166
+type NSArray' a a165,166
+type NSMutableArray' NSMutableArray'166,167
+type NSArray NSArray167,168
+type NSMutableArray NSMutableArray168,169
+type NSObject NSObject169,170
+upcast upcast171,172
+upcast upcast172,173
+type NSString NSString174,175
+type NSData NSData175,176
+objcCtxWithClasses objcCtxWithClasses177,178
+objcCtxWithClasses objcCtxWithClasses178,179
+objcCtx objcCtx184,185
+objcCtx objcCtx185,186
+mkNSString mkNSString187,188
+mkNSString mkNSString188,189
+attain attain191,192
+attain attain192,193
+convertType_ convertType_194,195
+convertType_ convertType_195,196
+convertObjCType convertObjCType201,202
+convertObjCType convertObjCType202,203
+rawAQ rawAQ210,211
+rawAQ rawAQ211,212
+objAQ objAQ227,228
+objAQ objAQ228,229
+ptrT ptrT244,245
+deHaskellifyCType deHaskellifyCType249,250
+txtAntiQuoter txtAntiQuoter255,256
+txtAntiQuoter txtAntiQuoter256,257
+toNSArray' toNSArray'273,274
+toNSArray' toNSArray'274,275
+toNSArray toNSArray282,283
+toNSArray toNSArray283,284
+fromNSArray' fromNSArray'285,286
+fromNSArray' fromNSArray'286,287
+fromNSArray fromNSArray292,293
+fromNSArray fromNSArray293,294
+arrAntiQuoter arrAntiQuoter307,308
+arrAntiQuoter arrAntiQuoter308,309
+stringClasses stringClasses325,326
+stringClasses stringClasses326,327
+fromNSString fromNSString328,329
+fromNSString fromNSString329,330
+description description332,333
+description description333,334
+safeCastObjC safeCastObjC336,337
+safeCastObjC safeCastObjC338,339
+getHsVariable getHsVariable348,349
+getHsVariable getHsVariable349,350
+
+./.stack-work/downloaded/a937f664b4cf143f5520c7bb6a68e1eeeb81f926a0fca6eaca791ecb6fa4334e/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_inline_c_objc.hs,976
+module Paths_inline_c_objc Paths_inline_c_objc0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/a937f664b4cf143f5520c7bb6a68e1eeeb81f926a0fca6eaca791ecb6fa4334e/examples/hello.hs,94
+module Main Main2,3
+nsLog nsLog11,12
+nsLog nsLog12,13
+main main14,15
+main main15,16
+
+./.stack-work/downloaded/a937f664b4cf143f5520c7bb6a68e1eeeb81f926a0fca6eaca791ecb6fa4334e/Setup.hs,15
+main main1,2
+
+./.stack-work/downloaded/a937f664b4cf143f5520c7bb6a68e1eeeb81f926a0fca6eaca791ecb6fa4334e/src/Language/ObjC/Inline/Prim.hs,242
+module Language.ObjC.Inline.Prim Language.ObjC.Inline.Prim0,1
+objcPrimCtx objcPrimCtx13,14
+objcPrimCtx objcPrimCtx14,15
+objcPrimTable objcPrimTable21,22
+objcPrimTable objcPrimTable22,23
+import_ import_29,30
+import_ import_30,31
+
+./.stack-work/downloaded/a937f664b4cf143f5520c7bb6a68e1eeeb81f926a0fca6eaca791ecb6fa4334e/src/Language/ObjC/Inline.hs,2848
+module Language.ObjC.Inline Language.ObjC.Inline6,7
+import import20,21
+newtype ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC ObjC63,64
+newtype ObjC (a :: k) = ObjC { runObjC runObjC63,64
+defClass defClass66,67
+defClass defClass67,68
+defStruct defStruct68,69
+defStruct defStruct69,70
+objcDefTable objcDefTable71,72
+class a a86,87
+class Class Class88,89
+class Class Class88,89
+  className className89,90
+instance instance91,92
+class Class a => Object Object94,95
+class Class a => Object Object94,95
+  type Haskell Haskell95,96
+  type Haskell a a95,96
+  fromObjC_ fromObjC_96,97
+  toObjC_ toObjC_97,98
+myGenercQuote myGenercQuote99,100
+myGenercQuote myGenercQuote106,107
+exp, block, pure pure124,125
+exp, block,block124,125
+exp,exp124,125
+exp exp125,126
+block block126,127
+pure pure127,128
+exp', block', pure' pure'130,131
+exp', block',block'130,131
+exp',exp'130,131
+exp' exp'131,132
+block' block'132,133
+pure' pure'133,134
+fromObjC fromObjC135,136
+fromObjC fromObjC136,137
+toObjC toObjC138,139
+toObjC toObjC139,140
+toObjC' toObjC'141,142
+toObjC' toObjC'142,143
+data NSArrayEl NSArrayEl159,160
+data NSMutableArrayEl NSMutableArrayEl160,161
+type NSArray' NSArray'165,166
+type NSArray' a a165,166
+type NSMutableArray' NSMutableArray'166,167
+type NSArray NSArray167,168
+type NSMutableArray NSMutableArray168,169
+type NSObject NSObject169,170
+upcast upcast171,172
+upcast upcast172,173
+type NSString NSString174,175
+type NSData NSData175,176
+objcCtxWithClasses objcCtxWithClasses177,178
+objcCtxWithClasses objcCtxWithClasses178,179
+objcCtx objcCtx184,185
+objcCtx objcCtx185,186
+mkNSString mkNSString187,188
+mkNSString mkNSString188,189
+attain attain191,192
+attain attain192,193
+convertType_ convertType_194,195
+convertType_ convertType_195,196
+convertObjCType convertObjCType201,202
+convertObjCType convertObjCType202,203
+rawAQ rawAQ210,211
+rawAQ rawAQ211,212
+objAQ objAQ227,228
+objAQ objAQ228,229
+ptrT ptrT244,245
+deHaskellifyCType deHaskellifyCType249,250
+txtAntiQuoter txtAntiQuoter255,256
+txtAntiQuoter txtAntiQuoter256,257
+toNSArray' toNSArray'273,274
+toNSArray' toNSArray'274,275
+toNSArray toNSArray282,283
+toNSArray toNSArray283,284
+fromNSArray' fromNSArray'285,286
+fromNSArray' fromNSArray'286,287
+fromNSArray fromNSArray292,293
+fromNSArray fromNSArray293,294
+arrAntiQuoter arrAntiQuoter307,308
+arrAntiQuoter arrAntiQuoter308,309
+stringClasses stringClasses325,326
+stringClasses stringClasses326,327
+fromNSString fromNSString328,329
+fromNSString fromNSString329,330
+description description332,333
+description description333,334
+safeCastObjC safeCastObjC336,337
+safeCastObjC safeCastObjC338,339
+getHsVariable getHsVariable348,349
+getHsVariable getHsVariable349,350
+
+./.stack-work/downloaded/dc7e99a422111a2628bda64f2a4e7759822741ff83739815a615eebb63d3275d/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/autogen/Paths_inline_c_objc.hs,976
+module Paths_inline_c_objc Paths_inline_c_objc0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version14,15
+version version15,16
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir16,17
+bindir, libdir, datadir, libexecdir,libexecdir16,17
+bindir, libdir, datadir,datadir16,17
+bindir, libdir,libdir16,17
+bindir,bindir16,17
+bindir bindir18,19
+libdir libdir19,20
+datadir datadir20,21
+libexecdir libexecdir21,22
+sysconfdir sysconfdir22,23
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir24,25
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir24,25
+getBinDir, getLibDir, getDataDir,getDataDir24,25
+getBinDir, getLibDir,getLibDir24,25
+getBinDir,getBinDir24,25
+getBinDir getBinDir25,26
+getLibDir getLibDir26,27
+getDataDir getDataDir27,28
+getLibexecDir getLibexecDir28,29
+getSysconfDir getSysconfDir29,30
+getDataFileName getDataFileName31,32
+getDataFileName getDataFileName32,33
+
+./.stack-work/downloaded/dc7e99a422111a2628bda64f2a4e7759822741ff83739815a615eebb63d3275d/examples/hello.hs,94
+module Main Main2,3
+nsLog nsLog13,14
+nsLog nsLog14,15
+main main16,17
+main main17,18
+
+./.stack-work/downloaded/dc7e99a422111a2628bda64f2a4e7759822741ff83739815a615eebb63d3275d/Setup.hs,15
+main main1,2
+
+./.stack-work/downloaded/dc7e99a422111a2628bda64f2a4e7759822741ff83739815a615eebb63d3275d/src/Language/ObjC/Inline/Prim.hs,242
+module Language.ObjC.Inline.Prim Language.ObjC.Inline.Prim0,1
+objcPrimCtx objcPrimCtx13,14
+objcPrimCtx objcPrimCtx14,15
+objcPrimTable objcPrimTable21,22
+objcPrimTable objcPrimTable22,23
+import_ import_29,30
+import_ import_30,31
+
+./.stack-work/downloaded/dc7e99a422111a2628bda64f2a4e7759822741ff83739815a615eebb63d3275d/src/Language/ObjC/Inline.hs,2433
+module Language.ObjC.Inline Language.ObjC.Inline5,6
+newtype ObjC ObjC46,47
+newtype ObjC (a :: k) = ObjC ObjC46,47
+newtype ObjC (a :: k) = ObjC { runObjC runObjC46,47
+defClass defClass49,50
+defClass defClass50,51
+defStruct defStruct51,52
+defStruct defStruct52,53
+objcDefTable objcDefTable54,55
+class a a67,68
+class Class Class69,70
+class Class Class69,70
+  className className70,71
+instance instance72,73
+class Class a => Object Object75,76
+class Class a => Object Object75,76
+  type Haskell Haskell76,77
+  type Haskell a a76,77
+  fromObjC_ fromObjC_77,78
+  toObjC_ toObjC_78,79
+fromObjC fromObjC80,81
+fromObjC fromObjC81,82
+toObjC toObjC83,84
+toObjC toObjC84,85
+toObjC' toObjC'86,87
+toObjC' toObjC'87,88
+data NSArrayEl NSArrayEl94,95
+data NSMutableArrayEl NSMutableArrayEl95,96
+type NSArray' NSArray'100,101
+type NSArray' a a100,101
+type NSMutableArray' NSMutableArray'101,102
+type NSArray NSArray102,103
+type NSMutableArray NSMutableArray103,104
+type NSObject NSObject104,105
+upcast upcast106,107
+upcast upcast107,108
+type NSString NSString109,110
+objcCtxWithClasses objcCtxWithClasses111,112
+objcCtxWithClasses objcCtxWithClasses112,113
+objcCtx objcCtx118,119
+objcCtx objcCtx119,120
+mkNSString mkNSString121,122
+mkNSString mkNSString122,123
+attain attain125,126
+attain attain126,127
+convertType_ convertType_128,129
+convertType_ convertType_129,130
+convertObjCType convertObjCType135,136
+convertObjCType convertObjCType136,137
+rawAQ rawAQ144,145
+rawAQ rawAQ145,146
+objAQ objAQ161,162
+objAQ objAQ162,163
+ptrT ptrT178,179
+deHaskellifyCType deHaskellifyCType183,184
+txtAntiQuoter txtAntiQuoter189,190
+txtAntiQuoter txtAntiQuoter190,191
+toNSArray' toNSArray'207,208
+toNSArray' toNSArray'208,209
+toNSArray toNSArray216,217
+toNSArray toNSArray217,218
+fromNSArray' fromNSArray'219,220
+fromNSArray' fromNSArray'220,221
+fromNSArray fromNSArray226,227
+fromNSArray fromNSArray227,228
+arrAntiQuoter arrAntiQuoter241,242
+arrAntiQuoter arrAntiQuoter242,243
+stringClasses stringClasses259,260
+stringClasses stringClasses260,261
+fromNSString fromNSString262,263
+fromNSString fromNSString263,264
+description description266,267
+description description267,268
+safeCastObjC safeCastObjC270,271
+safeCastObjC safeCastObjC272,273
+getHsVariable getHsVariable282,283
+getHsVariable getHsVariable283,284
+
+./examples/hello.hs,53
+module Main Main2,3
+main main8,9
+main main9,10
+
+./Setup.hs,15
+main main1,2
+
+./src/Language/OSA/AppleEventDescriptor.hs,80
+module Language.OSA.AppleEventDescriptor Language.OSA.AppleEventDescriptor2,3
+
+./src/Language/OSA/QQ.hs,194
+module Language.OSA.QQ Language.OSA.QQ1,2
+osa osa10,11
+osa osa11,12
+detectLinePos detectLinePos17,18
+detectLinePos detectLinePos18,19
+quoteOSA quoteOSA23,24
+quoteOSA quoteOSA24,25
+
+./src/Language/OSA.hs,1556
+module Language.OSA Language.OSA2,3
+import import13,14
+type NSAppleEventDescriptor NSAppleEventDescriptor27,28
+type NSAppleScript NSAppleScript28,29
+type NSDictionary NSDictionary29,30
+eventDescriptorData eventDescriptorData33,34
+eventDescriptorData eventDescriptorData34,35
+newAppleScript newAppleScript36,37
+newAppleScript newAppleScript37,38
+execute execute39,40
+execute execute40,41
+executeOrError executeOrError47,48
+executeOrError executeOrError48,49
+doAppleScript doAppleScript50,51
+doAppleScript doAppleScript51,52
+compile compile53,54
+compile compile54,55
+compileOrError compileOrError59,60
+compileOrError compileOrError60,61
+isCompiled isCompiled62,63
+isCompiled isCompiled63,64
+source source65,66
+source source66,67
+data AppleScriptError AppleScriptError68,69
+data AppleScriptError = AppleScriptError AppleScriptError68,69
+data AppleScriptError = AppleScriptError { asErrorMessage asErrorMessage68,69
+                                         , asErrorNumber asErrorNumber69,70
+                                         , asErrorAppName asErrorAppName70,71
+                                         , asErrorBriefMessage asErrorBriefMessage71,72
+                                         , asErrorRange asErrorRange72,73
+dicToASError dicToASError77,78
+dicToASError dicToASError78,79
+isNilObject isNilObject88,89
+isNilObject isNilObject89,90
+executeAppleEvent executeAppleEvent91,92
+executeAppleEvent executeAppleEvent92,93
+withNull withNull100,101
+withNull withNull101,102
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
